@@ -1,8 +1,8 @@
 {
-  "name": "typescript-action",
+  "name": "auto-release-draft",
   "version": "0.0.0",
   "private": true,
-  "description": "TypeScript template action",
+  "description": "Auto Release Draft description",
   "main": "lib/main.js",
   "scripts": {
     "build": "tsc",
@@ -22,7 +22,7 @@
     "node",
     "setup"
   ],
-  "author": "YourNameOrOrganization",
+  "author": "Daryl Walleck",
   "license": "MIT",
   "dependencies": {
     "@actions/core": "^1.2.0"
