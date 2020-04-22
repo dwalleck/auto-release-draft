@@ -14,9 +14,7 @@ jobs:
     steps:
       - name: Get the source code
         uses: actions/checkout@v1
-      - name: Restore the dependencies
-        run: npm ci
-      - name: Build
+      - name: Build and Package
         run: npm run all
       - name: Create a release draft for a version tag
         id: create-release-draft
